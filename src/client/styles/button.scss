@@ -1,4 +1,5 @@
 $button-color:#425DA7;
+$button-hover-color: #29448e;
 
 button {
     &.analyze {
@@ -14,5 +15,14 @@ button {
         box-shadow:0 3px 6px rgb(223, 223, 223);
         cursor: pointer;
         margin-top:10px;
+
+    &:hover {
+        background-color: $button-hover-color;
     }
+    &:active{
+        transition: transform 200ms linear;
+        transform: scale(0.95);
+    }
+    }
+   
 }

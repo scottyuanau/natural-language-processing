@@ -14,6 +14,7 @@ module.exports = {
     library:'Client',
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
+    clean:true,
   },
   module: {
     rules: [
@@ -36,7 +37,7 @@ module.exports = {
   },
   optimization:{
     minimizer:[
-      new CssMinimizerPlugin(), new TerserPlugin()
+       new TerserPlugin(),new CssMinimizerPlugin()
     ],
   },
   plugins: [new HtmlWebpackPlugin({

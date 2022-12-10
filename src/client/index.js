@@ -1,5 +1,5 @@
 import {handleSubmit} from './js/formHandler'
-import {checkForName} from './js/nameChecker'
+import {validateForm} from './js/validateForm'
 
 
 
@@ -8,10 +8,8 @@ import {checkForName} from './js/nameChecker'
 
 export {
     handleSubmit,
-    checkForName
+    validateForm
 }
 
 import './styles/styles.scss'
 import './styles/button.scss'
-import './styles/input.scss'
-import './styles/output.scss'
