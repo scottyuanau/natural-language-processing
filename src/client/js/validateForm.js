@@ -1,5 +1,6 @@
-function validateForm(inputText) {
-    alert('tested');
+function validateForm() {
+    
+    
 }
 
 export { validateForm }
