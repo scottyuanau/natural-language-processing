@@ -1,6 +1,6 @@
 function handleSubmit(event) {
 
-   console.log('test');
+   return console.log('test');
 }
 
 export { handleSubmit }

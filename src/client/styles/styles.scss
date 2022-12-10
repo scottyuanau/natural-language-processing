@@ -85,6 +85,9 @@ main {
 .input {
     grid-column: span 6;
     width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 //output area
 .result {
