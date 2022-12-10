@@ -2,7 +2,10 @@ var path = require('path')
 const express = require('express')
 var bodyParser = require('body-parser')
 var cors = require('cors')
+const dotenv = require('dotenv');
+dotenv.config();
 
+const APIKEY = process.env.API_KEY;
 
 
 const app = express()
@@ -20,6 +23,7 @@ app.use(express.static('dist'))
 app.get('/', function (req, res) {
     res.sendFile('dist/index.html')
 })
+
 
 
 // designates what port the app will listen to for incoming requests

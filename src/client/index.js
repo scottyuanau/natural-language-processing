@@ -2,8 +2,9 @@ import {handleSubmit} from './js/formHandler'
 import {checkForName} from './js/nameChecker'
 
 
-alert('I Exist');
-handleSubmit();
+
+
+
 
 export {
     handleSubmit,
@@ -11,3 +12,6 @@ export {
 }
 
 import './styles/styles.scss'
+import './styles/button.scss'
+import './styles/input.scss'
+import './styles/output.scss'

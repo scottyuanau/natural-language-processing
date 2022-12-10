@@ -1,0 +1,49 @@
+/*Initial Setup*/
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+*{
+    margin:0;
+    padding:0;
+    font:inherit;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img, picture, svg, video {
+    display: block;
+    max-width:100%;
+}
+
+input, textarea, button, select {
+    font:inherit;
+}
+
+body {
+    min-height:100vh;
+    display:gird;
+    grid-template-rows: 60px auto;
+    padding:20px;
+}
+
+html {
+    color-scheme: dark light;
+}
+
+h1 {
+    font-size:2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+header {
+    margin:10px;
+}
+
+main {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
