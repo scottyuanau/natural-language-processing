@@ -36,7 +36,7 @@ module.exports = {
   },
   optimization:{
     minimizer:[
-      new CssMinimizerPlugin(),
+      new CssMinimizerPlugin(), new TerserPlugin()
     ],
   },
   plugins: [new HtmlWebpackPlugin({
