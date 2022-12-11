@@ -12,6 +12,10 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     clean:true,
   },
+  watch:true,
+  watchOptions: {
+    ignored: /node_modules/,
+  },
   module: {
     rules: [
       {
