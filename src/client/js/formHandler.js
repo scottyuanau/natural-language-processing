@@ -58,3 +58,9 @@ const updateUI = async ()=>{
    }
    
  };
+
+ //test for tester
+ function sum(a, b) {
+   return a + b;
+ }
+ export {sum};
