@@ -36,8 +36,6 @@ app.get('/getData',getData);
 let data = [];
 function postData(req,res){
   data.push(req.body);
-  console.log('data received');
-  console.log(data);
   res.send({});
 }
 
