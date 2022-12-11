@@ -7,7 +7,7 @@ export {
     validateForm
 }
 
-
+validateForm();
 
 
 

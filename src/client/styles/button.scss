@@ -21,7 +21,6 @@ button {
         background-color: $button-hover-color;
     }
     &:active{
-        transition: transform 200ms linear;
         transform: scale(0.95);
     }
     }

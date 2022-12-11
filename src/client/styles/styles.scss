@@ -88,6 +88,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position:relative;
 }
 //output area
 .result {
@@ -99,6 +100,25 @@ main {
     width:100%;
     min-height: 400px;
 }
-
-
+//alert for invalid input
+.invalidInput {
+    border:4px solid red;
+}
+.alert {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    position:absolute;
+    bottom:80px;
+    svg {
+        margin-right:10px;
+        font-size:1.2em;
+        color:red;
+    }
+    p {
+        font-size:1.2em;
+        color:red;
+    }
+}
 
