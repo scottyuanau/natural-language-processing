@@ -25,7 +25,6 @@ document.querySelector('.analyze').addEventListener('click',()=>{
     } else {
         document.querySelector('.inputtext').classList.add('invalidInput');
         document.querySelector('.input').insertAdjacentElement('beforeend',alert);
-
     }
 
 })

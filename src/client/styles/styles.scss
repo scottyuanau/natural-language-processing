@@ -89,6 +89,7 @@ main {
     flex-direction: column;
     align-items: center;
     position:relative;
+    max-width: 400px;
 }
 //output area
 .result {
@@ -99,6 +100,17 @@ main {
     grid-column: 7/13;
     width:100%;
     min-height: 400px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 400px;
+    h3{
+        font-size: 1.2em;
+    }
+    p{
+        margin-top:10px;
+        color:#707070;
+    }
 }
 //alert for invalid input
 .invalidInput {
